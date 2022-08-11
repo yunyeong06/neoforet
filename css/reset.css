@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+
+* {box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+
+html,body {margin:0;padding:0;width:100%;height:100%;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;-moz-text-size-adjust:none;-o-text-size-adjust:none;}
+body {background-color:#fff;font-weight:normal;}
+
+div,pre,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,address,dl,dt,dd,ol,ul,li,fieldset,form,legend,table,caption,tbody,tfoot,thead,tr,th,td,input,select,textarea {margin:0;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}
+/* body,select,input,a,button {line-height:1;} */
+
+body,p,div,span,em,strong,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select,select,section,article,table,caption,tbody,tfoot,thead,tr,th,td {font-size:16px;font-family:'Pretendard','Noto Sans KR','Montserrat','Malgun Gothic','Dotum','AppleGothic',sans-serif;color:#333;word-break:keep-all;}
+
+h1,h2,h3,h4,h5,h6 {font-size:1em;font-weight:normal;}
+
+ul,ol,li {list-style:none;}
+em,address,i {font-style:normal;}
+
+
+table {border-collapse:collapse;border-spacing:0;table-layout:fixed;width:100%;border:0;}
+table th,table td {word-wrap:break-word;}
+caption {text-align:left;}
+
+img {border:0;max-width:100%;vertical-align:top;}
+figure {margin:0;}
+a:link,a:active,a:visited,a:hover {color:#333;text-decoration:none;}
+
+input {font-size:14px;vertical-align:middle;color:#333;}
+select {font-size:14px;vertical-align:middle;color:#333;}
+textarea {font-size:14px;color:#333;}
+input[type=button],input[type=submit],button {cursor:pointer;}
+/* input::-ms-clear {display:none} */
+
+input[type='button'],input[type='submit'] {-webkit-appearance:none;-webkit-border-radius:0;}
+button,input[type="submit"] {cursor:pointer;border:none;background:none;padding:0;outline:none;vertical-align:middle;}
+
+/* input[type="text"],input[type="password"],input[type="tel"],input[type="number"],input[type="email"],input[type="url"] {padding:0 3px;}
+input[type="text"],input[type="password"],input[type="tel"],input[type="number"],input[type="email"],input[type="url"],select {height:35px; max-width:100%; margin-right:0; margin-left:0; font:inherit; font-size:13px; border:1px solid #d0d0d0; padding-left:10px; border-radius:3px; -webkit-border-radius:3px; appearance:none; -webkit-appearance:none;} */
+
+hr,caption,legend{width:0; height:0; font-size:0; line-height:0; overflow:hidden; visibility:hidden;}
